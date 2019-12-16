@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Opciones del Mapa">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="ckMapa"
+            android:title="Poder acceder al mapa"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="ckruta"
+            android:title="Activar rutas" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
